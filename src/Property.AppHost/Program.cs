@@ -1,6 +1,6 @@
 var builder = DistributedApplication.CreateBuilder(args);
 
-var apiService = builder.AddProject<Projects.Property_ApiService>("apiservice")
+var apiService = builder.AddProject<Projects.Property_AppModules>("apiservice")
     .WithHttpsHealthCheck("/health");
 
 builder.AddProject<Projects.Property_Web>("webfrontend")

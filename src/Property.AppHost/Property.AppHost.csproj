@@ -11,7 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Property.ApiService\Property.ApiService.csproj" />
+    <ProjectReference Include="..\Property.AppModules\Property.AppModules.csproj" />
     <ProjectReference Include="..\Property.Web\Property.Web.csproj" />
   </ItemGroup>
 
